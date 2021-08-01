@@ -10,5 +10,5 @@
 module load cuda/10.1.243-gcc-8.3.0
 module load miniconda3
 source activate alphafold_cuda10
-cd /lustre/home/acct-stu/stu/alphafold
+cd /lustre/home/acct-stu/stu/parallelfold
 ./run_feature.sh -d data -o output -m model_1 -f input/test3.fasta -t 2021-07-27
