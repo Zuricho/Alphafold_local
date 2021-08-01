@@ -93,7 +93,7 @@ If tensorflow can find the GPU, this step is complete
 
 
 
-## Other Packages
+## Other Python Packages
 
 Then install other packages with pip and conda
 
@@ -148,11 +148,11 @@ alphafold_path="/path/to/alphafold/git/repo"
 
 ## Download chemical properties to the common folder
 
+You need to check if you have the  `stereo_chemical_props.txt`  file in `alphafold/alphafold/common/ ` folder, if you don't have it, you need to download this file:
+
 ```
 wget -q -P alphafold/alphafold/common/ https://git.scicore.unibas.ch/schwede/openstructure/-/raw/7102c63615b64735c4941278d92b554ec94415f8/modules/mol/alg/src/stereo_chemical_props.txt
 ```
-
-This step in necessary! Some guide missed this file.
 
 
 
